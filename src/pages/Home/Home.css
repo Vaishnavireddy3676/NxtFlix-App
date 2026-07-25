@@ -1,0 +1,45 @@
+.home-page {
+    min-height: 100vh;
+    background-color: #141414;
+    padding-bottom: 4rem;
+}
+
+.hero-section {
+    height: 50vh;
+    min-height: 350px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), #141414), url('https://picsum.photos/seed/nxtflixhero/1600/900') center/cover no-repeat;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 4rem 3rem 4rem;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 0.75rem;
+}
+
+.hero-content p {
+    color: #cccccc;
+    font-size: 1.1rem;
+    max-width: 550px;
+    line-height: 1.5;
+}
+
+.catalog-section {
+    padding: 2rem 4rem;
+}
+
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.empty-catalog {
+    text-align: center;
+    padding: 4rem 0;
+    color: #888888;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,63 @@
+.not-found-container {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #0b0b0b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.radial-glow-404 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 700px;
+    background: radial-gradient(circle, rgba(180, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 70%);
+    pointer-events: none;
+}
+
+.not-found-content {
+    position: relative;
+    z-index: 1;
+    max-width: 500px;
+    padding: 2rem;
+}
+
+.error-code {
+    font-size: 6rem;
+    font-weight: 900;
+    color: #e50914;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.not-found-content h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+.not-found-content p {
+    color: #aaaaaa;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.home-link {
+    display: inline-block;
+    background-color: #e50914;
+    color: #ffffff;
+    padding: 0.75rem 1.75rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.home-link:hover {
+    background-color: #b80710;
+}

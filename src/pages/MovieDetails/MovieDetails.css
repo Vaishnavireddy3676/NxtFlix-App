@@ -1,0 +1,116 @@
+.details-page {
+    min-height: 100vh;
+    background-color: #141414;
+}
+
+.backdrop-banner {
+    min-height: calc(100vh - 70px);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.backdrop-overlay {
+    min-height: calc(100vh - 70px);
+    background: linear-gradient(to right, rgba(10, 10, 10, 0.95) 30%, rgba(10, 10, 10, 0.7) 100%);
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+}
+
+.details-content {
+    display: flex;
+    gap: 3rem;
+    max-width: 1100px;
+    align-items: center;
+}
+
+.poster-frame img {
+    width: 260px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+.info-frame {
+    max-width: 650px;
+}
+
+.movie-title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.meta-tags {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.genre-tag {
+    background-color: #e50914;
+    color: #fff;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.meta-item {
+    color: #aaa;
+    font-size: 0.95rem;
+}
+
+.rating-tag {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.movie-overview {
+    color: #dddddd;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.watch-later-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #e50914;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.watch-later-btn.added {
+    background-color: #2e7d32;
+}
+
+.go-back-btn {
+    background-color: #333333;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.go-back-btn:hover {
+    background-color: #444444;
+}

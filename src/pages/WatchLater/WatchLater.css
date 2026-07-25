@@ -1,0 +1,42 @@
+.watch-later-page {
+    min-height: 100vh;
+    background-color: #141414;
+}
+
+.watch-later-container {
+    padding: 3rem 4rem;
+}
+
+.page-title {
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.empty-watch-later {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    gap: 1.5rem;
+}
+
+.empty-watch-later p {
+    color: #aaaaaa;
+    font-size: 1.1rem;
+}
+
+.browse-btn {
+    background-color: #e50914;
+    color: #ffffff;
+    padding: 0.75rem 1.75rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.browse-btn:hover {
+    background-color: #b80710;
+}
